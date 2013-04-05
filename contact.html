@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head Begins -->
+<head>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="contact.js"></script>
+</head>
+<!-- Head Ends -->
+
+
+<!-- Body Begins -->
+<body onload="initialize()">
+  
+  
+<!-- Wrapper Begins -->
+  <section id="wrapper">    
+  	
+  	
+<!-- Header Begins -->
+  	<header>
+   	  <section id="headText">
+   	    <h1>gym<span class="colour">W</span>ise</h1>
+   	  </section>
+   	  <!-- Nav Begins -->
+  	  <nav>
+  	  	<ul>
+	      <li><a href="index.html">home</a></li>
+	      <li><a href="map.html">map</a></li>
+	      <li><a href="data.html">find</a></li>
+	      <li><a href="compare.php">compare</a></li>
+	      <li><a href="contact.html" class="active">contact</a></li>
+	    </ul>
+  	  </nav>
+  	  <!-- Nav Ends -->
+  	</header>
+<!-- Header Ends -->
+  	
+  	
+<!-- Main Section Begins -->
+  	  <section id="top">
+  	    <h2>If you would like to get in contact, update us or add a gym to the site please send the details through.</h2>
+  	  </section>
+  	  <section id="contact">  	    
+  	    <!-- Form Begins -->
+  	    <form name="enquiry" action="contact.php" method="POST" onsubmit="return validate_form(this);">     
+    	    <label>Name</label>
+    	    <input name="name" placeholder="type here">            
+    	    <label>Email</label>
+    	    <input name="email" type="email" placeholder="type here">            
+    	    <label>Message</label>
+    	    <textarea name="message" placeholder="type here"></textarea><br />        
+    	    <input id="submit" name="submit" type="submit" value="Submit">        
+		  </form>
+		  <!-- Form Ends -->
+  	  </section>  
+<!-- Main Section Ends -->
+  	 
+  	    	
+<!-- Footer Begins -->
+  	<footer>
+  	  <section id="footerLeft">
+  	    <h5><span class="footer">&#169; 2013 Thomas Potts.</span> All Rights Reserved.</h5>
+  	  </section>
+  	  <section id="footerRight">
+  	    <ul>
+  	      <li><a href="index.html">home</a></li>|
+	      <li><a href="map.html">map</a></li>|
+  	      <li><a href="data.html">find</a></li>|
+  	      <li><a href="compare.php">compare</a></li>|
+  	      <li><a href="contact.html">contact</a></li>
+  	    </ul>
+  	  </section> 
+  	</footer>
+<!-- Footer Ends -->
+
+  	
+  </section>
+<!-- Wrapper Ends -->
+
+  
+</body>
+<!-- Body Ends -->
+
+</html>
