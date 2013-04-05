@@ -1,8 +1,8 @@
 <?php
 $con = mysql_connect(
-  'web303.webfaction.com',
-  'gyms',
-  'root'
+  'server',
+  'name',
+  'password'
 );
 if ( !$con )
         {
